@@ -1,2 +1,5 @@
 Links para aprendizado:
 https://olhardigital.com.br/2020/01/22/noticias/github-combina-ia-e-aprendizado-de-maquinas-para-sugerir-projetos/
+
+
+https://docs.github.com/pt/github/getting-started-with-github/quickstart/git-and-github-learning-resources
