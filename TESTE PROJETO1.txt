@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/mostratec-favicon.svg"><title>Mostratec Digital</title><link href="/css/app.a5435cd6.css" rel="preload" as="style"><link href="/css/chunk-vendors.911ff88b.css" rel="preload" as="style"><link href="/js/app.a0a230a4.js" rel="preload" as="script"><link href="/js/chunk-vendors.6ed6c4a5.js" rel="preload" as="script"><link href="/css/chunk-vendors.911ff88b.css" rel="stylesheet"><link href="/css/app.a5435cd6.css" rel="stylesheet"><style type="text/css" id="vuetify-theme-stylesheet">.v-application a { color: #1b778b; }
+.v-application .primary {
+  background-color: #1b778b !important;
+  border-color: #1b778b !important;
+}
+.v-application .primary--text {
+  color: #1b778b !important;
+  caret-color: #1b778b !important;
+}
+.v-application .primary.lighten-5 {
+  background-color: #b1ffff !important;
+  border-color: #b1ffff !important;
+}
+.v-application .primary--text.text--lighten-5 {
+  color: #b1ffff !important;
+  caret-color: #b1ffff !important;
+}
+.v-application .primary.lighten-4 {
+  background-color: #94e3f9 !important;
+  border-color: #94e3f9 !important;
+}
+.v-application .primary--text.text--lighten-4 {
+  color: #94e3f9 !important;
+  caret-color: #94e3f9 !important;
+}
+.v-application .primary.lighten-3 {
+  background-color: #78c7dc !important;
+  border-color: #78c7dc !important;
+}
+.v-application .primary--text.text--lighten-3 {
+  color: #78c7dc !important;
+  caret-color: #78c7dc !important;
+}
+.v-application .primary.lighten-2 {
+  background-color: #5cabc1 !important;
+  border-color: #5cabc1 !important;
+}
+.v-application .primary--text.text--lighten-2 {
+  color: #5cabc1 !important;
+  caret-color: #5cabc1 !important;
+}
+.v-application .primary.lighten-1 {
+  background-color: #3e91a5 !important;
+  border-color: #3e91a5 !important;
+}
+.v-application .primary--text.text--lighten-1 {
+  color: #3e91a5 !important;
+  caret-color: #3e91a5 !important;
+}
+.v-application .primary.darken-1 {
+  background-color: #005e71 !important;
+  border-color: #005e71 !important;
+}
+.v-application .primary--text.text--darken-1 {
+  color: #005e71 !important;
+  caret-color: #005e71 !important;
+}
+.v-application .primary.darken-2 {
+  background-color: #004659 !important;
+  border-color: #004659 !important;
+}
+.v-application .primary--text.text--darken-2 {
+  color: #004659 !important;
+  caret-color: #004659 !important;
+}
+.v-application .primary.darken-3 {
+  background-color: #003042 !important;
+  border-color: #003042 !important;
+}
+.v-application .primary--text.text--darken-3 {
+  color: #003042 !important;
+  caret-color: #003042 !important;
+}
+.v-application .primary.darken-4 {
+  background-color: #001c2b !important;
+  border-color: #001c2b !important;
+}
+.v-application .primary--text.text--darken-4 {
+  color: #001c2b !important;
+  caret-color: #001c2b !important;
+}
+.v-application .secondary {
+  background-color: #006076 !important;
+  border-color: #006076 !important;
+}
+.v-application .secondary--text {
+  color: #006076 !important;
+  caret-color: #006076 !important;
+}
+.v-application .secondary.lighten-5 {
+  background-color: #9fe5fe !important;
+  border-color: #9fe5fe !important;
+}
+.v-application .secondary--text.text--lighten-5 {
+  color: #9fe5fe !important;
+  caret-color: #9fe5fe !important;
+}
+.v-application .secondary.lighten-4 {
+  background-color: #83c9e2 !important;
+  border-color: #83c9e2 !important;
+}
+.v-application .secondary--text.text--lighten-4 {
+  color: #83c9e2 !important;
+  caret-color: #83c9e2 !important;
+}
+.v-application .secondary.lighten-3 {
+  background-color: #67adc6 !important;
+  border-color: #67adc6 !important;
+}
+.v-application .secondary--text.text--lighten-3 {
+  color: #67adc6 !important;
+  caret-color: #67adc6 !important;
+}
+.v-application .secondary.lighten-2 {
+  background-color: #4b93aa !important;
+  border-color: #4b93aa !important;
+}
+.v-application .secondary--text.text--lighten-2 {
+  color: #4b93aa !important;
+  caret-color: #4b93aa !important;
+}
+.v-application .secondary.lighten-1 {
+  background-color: #2d7990 !important;
+  border-color: #2d7990 !important;
+}
+.v-application .secondary--text.text--lighten-1 {
+  color: #2d7990 !important;
+  caret-color: #2d7990 !important;
+}
+.v-application .secondary.darken-1 {
+  background-color: #00485d !important;
+  border-color: #00485d !important;
+}
+.v-application .secondary--text.text--darken-1 {
+  color: #00485d !important;
+  caret-color: #00485d !important;
+}
+.v-application .secondary.darken-2 {
+  background-color: #003246 !important;
+  border-color: #003246 !important;
+}
+.v-application .secondary--text.text--darken-2 {
+  color: #003246 !important;
+  caret-color: #003246 !important;
+}
+.v-application .secondary.darken-3 {
+  background-color: #001d2f !important;
+  border-color: #001d2f !important;
+}
+.v-application .secondary--text.text--darken-3 {
+  color: #001d2f !important;
+  caret-color: #001d2f !important;
+}
+.v-application .secondary.darken-4 {
+  background-color: #00041b !important;
+  border-color: #00041b !important;
+}
+.v-application .secondary--text.text--darken-4 {
+  color: #00041b !important;
+  caret-color: #00041b !important;
+}
+.v-application .accent {
+  background-color: #fbe265 !important;
+  border-color: #fbe265 !important;
+}
+.v-application .accent--text {
+  color: #fbe265 !important;
+  caret-color: #fbe265 !important;
+}
+.v-application .accent.lighten-5 {
+  background-color: #fffff2 !important;
+  border-color: #fffff2 !important;
+}
+.v-application .accent--text.text--lighten-5 {
+  color: #fffff2 !important;
+  caret-color: #fffff2 !important;
+}
+.v-application .accent.lighten-4 {
+  background-color: #ffffd5 !important;
+  border-color: #ffffd5 !important;
+}
+.v-application .accent--text.text--lighten-4 {
+  color: #ffffd5 !important;
+  caret-color: #ffffd5 !important;
+}
+.v-application .accent.lighten-3 {
+  background-color: #ffffb8 !important;
+  border-color: #ffffb8 !important;
+}
+.v-application .accent--text.text--lighten-3 {
+  color: #ffffb8 !important;
+  caret-color: #ffffb8 !important;
+}
+.v-application .accent.lighten-2 {
+  background-color: #ffff9c !important;
+  border-color: #ffff9c !important;
+}
+.v-application .accent--text.text--lighten-2 {
+  color: #ffff9c !important;
+  caret-color: #ffff9c !important;
+}
+.v-application .accent.lighten-1 {
+  background-color: #ffff80 !important;
+  border-color: #ffff80 !important;
+}
+.v-application .accent--text.text--lighten-1 {
+  color: #ffff80 !important;
+  caret-color: #ffff80 !important;
+}
+.v-application .accent.darken-1 {
+  background-color: #ddc64a !important;
+  border-color: #ddc64a !important;
+}
+.v-application .accent--text.text--darken-1 {
+  color: #ddc64a !important;
+  caret-color: #ddc64a !important;
+}
+.v-application .accent.darken-2 {
+  background-color: #bfab2d !important;
+  border-color: #bfab2d !important;
+}
+.v-application .accent--text.text--darken-2 {
+  color: #bfab2d !important;
+  caret-color: #bfab2d !important;
+}
+.v-application .accent.darken-3 {
+  background-color: #a29107 !important;
+  border-color: #a29107 !important;
+}
+.v-application .accent--text.text--darken-3 {
+  color: #a29107 !important;
+  caret-color: #a29107 !important;
+}
+.v-application .accent.darken-4 {
+  background-color: #867700 !important;
+  border-color: #867700 !important;
+}
+.v-application .accent--text.text--darken-4 {
+  color: #867700 !important;
+  caret-color: #867700 !important;
+}
+.v-application .error {
+  background-color: #b71c1c !important;
+  border-color: #b71c1c !important;
+}
+.v-application .error--text {
+  color: #b71c1c !important;
+  caret-color: #b71c1c !important;
+}
+.v-application .error.lighten-5 {
+  background-color: #ffaf95 !important;
+  border-color: #ffaf95 !important;
+}
+.v-application .error--text.text--lighten-5 {
+  color: #ffaf95 !important;
+  caret-color: #ffaf95 !important;
+}
+.v-application .error.lighten-4 {
+  background-color: #ff937b !important;
+  border-color: #ff937b !important;
+}
+.v-application .error--text.text--lighten-4 {
+  color: #ff937b !important;
+  caret-color: #ff937b !important;
+}
+.v-application .error.lighten-3 {
+  background-color: #ff7762 !important;
+  border-color: #ff7762 !important;
+}
+.v-application .error--text.text--lighten-3 {
+  color: #ff7762 !important;
+  caret-color: #ff7762 !important;
+}
+.v-application .error.lighten-2 {
+  background-color: #f75b4a !important;
+  border-color: #f75b4a !important;
+}
+.v-application .error--text.text--lighten-2 {
+  color: #f75b4a !important;
+  caret-color: #f75b4a !important;
+}
+.v-application .error.lighten-1 {
+  background-color: #d73e32 !important;
+  border-color: #d73e32 !important;
+}
+.v-application .error--text.text--lighten-1 {
+  color: #d73e32 !important;
+  caret-color: #d73e32 !important;
+}
+.v-application .error.darken-1 {
+  background-color: #980005 !important;
+  border-color: #980005 !important;
+}
+.v-application .error--text.text--darken-1 {
+  color: #980005 !important;
+  caret-color: #980005 !important;
+}
+.v-application .error.darken-2 {
+  background-color: #7a0000 !important;
+  border-color: #7a0000 !important;
+}
+.v-application .error--text.text--darken-2 {
+  color: #7a0000 !important;
+  caret-color: #7a0000 !important;
+}
+.v-application .error.darken-3 {
+  background-color: #5e0000 !important;
+  border-color: #5e0000 !important;
+}
+.v-application .error--text.text--darken-3 {
+  color: #5e0000 !important;
+  caret-color: #5e0000 !important;
+}
+.v-application .error.darken-4 {
+  background-color: #480000 !important;
+  border-color: #480000 !important;
+}
+.v-application .error--text.text--darken-4 {
+  color: #480000 !important;
+  caret-color: #480000 !important;
+}
+.v-application .info {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .info--text {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .info.lighten-5 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .info--text.text--lighten-5 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .info.lighten-4 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .info--text.text--lighten-4 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .info.lighten-3 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .info--text.text--lighten-3 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .info.lighten-2 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .info--text.text--lighten-2 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .info.lighten-1 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .info--text.text--lighten-1 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .info.darken-1 {
+  background-color: #e2e2e2 !important;
+  border-color: #e2e2e2 !important;
+}
+.v-application .info--text.text--darken-1 {
+  color: #e2e2e2 !important;
+  caret-color: #e2e2e2 !important;
+}
+.v-application .info.darken-2 {
+  background-color: #c6c6c6 !important;
+  border-color: #c6c6c6 !important;
+}
+.v-application .info--text.text--darken-2 {
+  color: #c6c6c6 !important;
+  caret-color: #c6c6c6 !important;
+}
+.v-application .info.darken-3 {
+  background-color: #ababab !important;
+  border-color: #ababab !important;
+}
+.v-application .info--text.text--darken-3 {
+  color: #ababab !important;
+  caret-color: #ababab !important;
+}
+.v-application .info.darken-4 {
+  background-color: #919191 !important;
+  border-color: #919191 !important;
+}
+.v-application .info--text.text--darken-4 {
+  color: #919191 !important;
+  caret-color: #919191 !important;
+}
+.v-application .success {
+  background-color: #4caf50 !important;
+  border-color: #4caf50 !important;
+}
+.v-application .success--text {
+  color: #4caf50 !important;
+  caret-color: #4caf50 !important;
+}
+.v-application .success.lighten-5 {
+  background-color: #dcffd6 !important;
+  border-color: #dcffd6 !important;
+}
+.v-application .success--text.text--lighten-5 {
+  color: #dcffd6 !important;
+  caret-color: #dcffd6 !important;
+}
+.v-application .success.lighten-4 {
+  background-color: #beffba !important;
+  border-color: #beffba !important;
+}
+.v-application .success--text.text--lighten-4 {
+  color: #beffba !important;
+  caret-color: #beffba !important;
+}
+.v-application .success.lighten-3 {
+  background-color: #a2ff9e !important;
+  border-color: #a2ff9e !important;
+}
+.v-application .success--text.text--lighten-3 {
+  color: #a2ff9e !important;
+  caret-color: #a2ff9e !important;
+}
+.v-application .success.lighten-2 {
+  background-color: #85e783 !important;
+  border-color: #85e783 !important;
+}
+.v-application .success--text.text--lighten-2 {
+  color: #85e783 !important;
+  caret-color: #85e783 !important;
+}
+.v-application .success.lighten-1 {
+  background-color: #69cb69 !important;
+  border-color: #69cb69 !important;
+}
+.v-application .success--text.text--lighten-1 {
+  color: #69cb69 !important;
+  caret-color: #69cb69 !important;
+}
+.v-application .success.darken-1 {
+  background-color: #2d9437 !important;
+  border-color: #2d9437 !important;
+}
+.v-application .success--text.text--darken-1 {
+  color: #2d9437 !important;
+  caret-color: #2d9437 !important;
+}
+.v-application .success.darken-2 {
+  background-color: #00791e !important;
+  border-color: #00791e !important;
+}
+.v-application .success--text.text--darken-2 {
+  color: #00791e !important;
+  caret-color: #00791e !important;
+}
+.v-application .success.darken-3 {
+  background-color: #006000 !important;
+  border-color: #006000 !important;
+}
+.v-application .success--text.text--darken-3 {
+  color: #006000 !important;
+  caret-color: #006000 !important;
+}
+.v-application .success.darken-4 {
+  background-color: #004700 !important;
+  border-color: #004700 !important;
+}
+.v-application .success--text.text--darken-4 {
+  color: #004700 !important;
+  caret-color: #004700 !important;
+}
+.v-application .warning {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .warning--text {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .warning.lighten-5 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .warning--text.text--lighten-5 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .warning.lighten-4 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .warning--text.text--lighten-4 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .warning.lighten-3 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .warning--text.text--lighten-3 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .warning.lighten-2 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .warning--text.text--lighten-2 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .warning.lighten-1 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .warning--text.text--lighten-1 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .warning.darken-1 {
+  background-color: #e2e2e2 !important;
+  border-color: #e2e2e2 !important;
+}
+.v-application .warning--text.text--darken-1 {
+  color: #e2e2e2 !important;
+  caret-color: #e2e2e2 !important;
+}
+.v-application .warning.darken-2 {
+  background-color: #c6c6c6 !important;
+  border-color: #c6c6c6 !important;
+}
+.v-application .warning--text.text--darken-2 {
+  color: #c6c6c6 !important;
+  caret-color: #c6c6c6 !important;
+}
+.v-application .warning.darken-3 {
+  background-color: #ababab !important;
+  border-color: #ababab !important;
+}
+.v-application .warning--text.text--darken-3 {
+  color: #ababab !important;
+  caret-color: #ababab !important;
+}
+.v-application .warning.darken-4 {
+  background-color: #919191 !important;
+  border-color: #919191 !important;
+}
+.v-application .warning--text.text--darken-4 {
+  color: #919191 !important;
+  caret-color: #919191 !important;
+}</style></head><body><noscript><strong>We're sorry but front doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="application"><div data-app="true" class="v-application v-app v-application--is-ltr theme--light" id="app"><div class="v-application--wrap"><div data-v-dc714f3e="" class="container__wrapper"><header data-v-29f8af23="" data-v-dc714f3e="" class="header__fix"><div data-v-29f8af23="" class="header"><img data-v-29f8af23="" src="/img/logo.a2a21b69.png" alt="Logo Mostratec" class="logo"><div data-v-29f8af23="" class="menu"><div data-v-29f8af23="" class="language border"><div data-v-29f8af23="" class="menu__item"><img data-v-d434ac08="" data-v-29f8af23="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMbSURBVHgBvVZdTttAEJ61XYroi3lDpBLpCUhPgDkBuQFwAoJEEngieWpIqAgnIL0BnKDOCXBvkEqk7RuuBFIKiaffrH9wLIcIiXakJM7s7H7z8+2Mif6DqHkGdqVhLy2821OKHCYqYkMx2uoTsUdMVxNjfPmrdTR4McjK4aeiydYFHp2nQ+mSefJd/1PmGhM7KdDeRD0288ByQd7XT/fgdSP8x7KpRIp3h61ab8rusOMw01c8utoGEnDQ/Nmud9N2RhZgtfb5GB52JRXw7CNUPgAHWQCRm1bVlXV5nqix2HqGMs5Wa53jmZGEEQiA8pGWc22gDNngMQdXlCOKjC18FbEe2+/hx0ZE+3FECUhYgzfXiMCm1xFfopMaWbEGADpELHyIi7daO2lIJPd/rGW/u+/nnVSsnNmPb8e3iKT5o11vPDlsXUfE2TRiJSLYwaeXZoeh1Drq4c0CEBlgTWqmlFqLdXIGCCHpc2w4oUHMwCpHUZynD2BStooK+5wYIAlsS2ndwoOl67G08FAJ2aVoSzzOcpz1HeDBPJAJ8284Y2cjxAEe0r2hC1+od25Fn2VQxCwX+v5zIHIQfhypy5Q+ZJ4dgzD9Q0nYlWZHLAKep89KzMLhSVXl6XVNsux4LQlrSr4GUVKPDDteAh4dNsjqDTLWSVqNNmLqA6gknE4bKdZ9a5nmCPrVWhZE3z1FJbSXK53D5NYSXwLxWwKS6UuzBHnf1szh4MsTsImLzGXpIEmhUGRp2Q69qqje8ORgN2EXEHel3+DRA0s2RRfPC6XGmzetIzfvmJWDjmOa0zaF+umFtCkZYjqq2FjfdiZROqER+D2yPJJ5wmZ5lq+myXrtbrToxTrwXk9PK5qaU0Nr2K52Mcub4oWkb7Q4EiJgs9qm2SnZwpebbqJR34Jzlu7sueO3UOtUsBJPN/HQyUtZodreQYUvIhsB8cCmPhuBZwTWDhw+ln3Pv0gEVgNgcRQD+OSmXyTwU06GHJqhUDYVoR+tuXNfiSKwsnRq0hc2PFRfVH1ZqX83uu/63YZOlyZLQCVc4g3UpshokH8BEhiPPZoJbakAAAAASUVORK5CYII=" alt="Ícone de caneta da tela pré-cadastro" class="img header__icon"><span data-v-29f8af23="">en-US</span></div><!----></div><div data-v-29f8af23="" class="border"><a data-v-29f8af23="" href="https://www.mostratec.com.br/regulamento-da-mostratec-virtual/" target="_blank" class="menu__item"><img data-v-d434ac08="" data-v-29f8af23="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAUCAYAAABSx2cSAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGHSURBVHgBnVRbTsJQEJ0pLcTwIZ9GMIEd6A5wB7IDdkCb2CJf8MfTgCsAd8AOgB3UFVijGD77IUToY7wXxMBta6onmT5m5txz7p20CAJy1V6FgG4gCHPe1rXDBPJLVu+UCSm/TaBUJwCLFSyBXGTVEZH3goTW0lHGeG7c1xH9xnEfjjzfn/28IWYkhL6w2FRixCJ/YJaQB20VqZyQcLgPTuR5D90C72H1B+5EElaD97ZeUFiTGKv18mrRqlm8h4hsfpcPiXm1n9mknKFDmBEXTadkSOsdbd41zH0uoIwQJH7nbS/h2Ye5I2VroPHiNcSELCayRlcl8EPVV5vkwN4JBMl8zw66fQzuZouT5MZkzDH8Yhvhv7bP1GY+qnkx2I1qjyN/3HYiJT9HRe6uWYxU5rYvjF7Jl8IP7ONzbUaSOV47t2OIieBpJ90JIQSU2SnaiK721qpNQ8m7LpqxUZ1CCFzhMw0blQrxbdMTk6tkq90JxAZesr+NKSlrpQEEj/AHsP1PfXRLX1xioOUYhpS+AAAAAElFTkSuQmCC" alt="Ícone de caneta da tela pré-cadastro" class="img header__icon"><span data-v-29f8af23="">Regulation</span></a></div><div data-v-29f8af23="" class="border"><a data-v-29f8af23="" href="/login" class="menu__item"><img data-v-d434ac08="" data-v-29f8af23="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAYCAYAAAAPtVbGAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOSSURBVHgBrVZfThphEJ/5lhUjTbq+qZgUT1BvIJ5APYF4AjER0PjA8iQCjXgC4QTaE0hPIJ7AbSLWpA/dh9oqhZ3OfMvK8mdt03Qe2I/9Zn7zf2YRXiEra1uJmUSGkNYAcBUBUv4NugDU5kO763WbX6tH7ddwMAp8biaxi4hZBrMIwEHAFlH/sxZCtPj3PR/TA5FWH3s7D+VD56+UJHOVVVB4AdpqbCBS866ca0UZk5id2yTConhJBPZ9JVd6Vcli/mRToXFOQK5C2AmDC6BpmimDlAUxcMJWp7KnVi/et1luVwzrnOzvTFWycHDMAOY1h8d5fH5cd+u2+2JtPFFk1oyELiTbRuzt3ZUPXwxZPqja7A3zQr1zktsL3qvgYFDsSjzg2G4FCkQxK7j2FXhNRbiFCOtAsMd5sohllvLVYoDBntucuzM+ZpcPjtMjnnAeMpyHc4+8rS+VwmVwmSxUb0mYPNrqVPMTFZTMVxuMsM0erYc9WmI5AWZvVoaeKCyyFx9HFIhiDjcnvjRNgZDZjWWl8tijYvi95FNkA2/Uwn5VDlwZ1AgzooINAeiU8w2IIKe+53LomnxMW5x8GIatxQ/XIyOrlRgGbcoh7IUQAVrssgN/IANQe2maP1KjN9Tk/KxpJdJUbPFEOJCLQJIL/0qexrQWj2rvlA8I7gQP4Y00WDgMU7HQD+v4aFGoNGav+zyvIoVVryGWJOL90yiehX1JLGUUes0onrihLBUVFt3R3A8CkizUzqVnwvfLhdquYZgX4sX3p5/1CSOBNH/fMG8xWagwA24/PsdWXKmWMQp1sZCExJWJPOj+yMEohjHPJvfKvOKJKlVlvZl9WoUpJF3MQCtEXgmGubuUzmeA9ajJywrS3Huf5OR3fKH6TawUIfgPFEwQQNqRPotpnQRnbFlROjQ8HoSCxcVLhPeHH2eZcSx043le66E2yq9JTxBw7geNrD2RUd2N967lD4dGh2AwlYuSeF8SBdhhCelyi59BeB2udxk9GnAp/6GI6NmBFy9KBi7KsroSIa6MhgJlawakM+rT5fj8Gl9Y/CqosCwrKd2VC3bAO7K0kgccS+JY+tSWsR+d2CFxOdf9haURm51yLhO+n7p+idcvDtZvH3+VohSNfwuMexCpREjnw4vZsisGrxySrxNOthZC9ZYfq+F+4cIpRX0LTFUyogyMNJLa4FWQGiY7+CSiG+mzKPCAfgM2hMWmTp90dAAAAABJRU5ErkJggg==" alt="Ícone de caneta da tela pré-cadastro" class="img header__icon"><span data-v-29f8af23="">Enter</span></a></div></div></div><!----></header><div data-v-4465ccbb="" data-v-dc714f3e="" class="container-app"><div data-v-4465ccbb="" class="wrapper"><div data-v-63b32920="" data-v-4465ccbb=""><main data-v-63b32920="" class="top"><h1 data-v-63b32920="">Project's registration</h1><p data-v-63b32920="" class="small">Before we continue, tell us...</p><p data-v-63b32920="">Which of the following types of projects registration do you intend to proceed with?</p></main><section data-v-63b32920="" class="bottom"><a data-v-63b32920="" href="/projects" class="router_link router-link-exact-active router-link-active" aria-current="page"><div data-v-63b32920="" class="card__left card"><div data-v-63b32920="" class="image disabled"><img data-v-63b32920="" src="/img/project-image-1.bcc98343.png" alt=""></div><div data-v-63b32920="" class="text"><h3 data-v-63b32920="">Selection Process</h3><p data-v-63b32920="">For those who already have a scientific project and are interested in going through the selection process to participate in the fair independently.</p><div data-v-63b32920="" class="levels"><p data-v-63b32920="">Teaching levels contemplated:</p><div data-v-63b32920="" class="badges disabled"><span data-v-63b32920="" class="badge">High School / Technical</span></div><div data-v-63b32920="" class="over"><img data-v-63b32920="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIHSURBVHgBlVRNbtNQEJ6ZlxSnqoRvgHsDHyE5Qd0Ca9oTEBZIqEUiSLRimSPQNYUmJ0huEB/BR/AiUqzEfsPMM7aM40RipMj2vO998/dNEI7YJvoUyEN/4EEW42yaHsJi28HR2M/p9L0FuAbEoHWcWOavg98PP44Srd/ehv0Cn8UbyMEyZ5gbxMQipGw57CFcMMDQERbFaDD7nuwRaRlkeivJKbWIN4Onb0vosK0E4zKYvyMenf18iNVPFYDILByJRmqQrKOP4d9eOTuRi9YWI2BI+xaftRU10ebq9lrLkQiXzXSFYNg3Jys0NG1mpRhLeCOvQUan45qIAL9oT6o0K/PAi9UvTV+2S9Ss9YwQ3zkOjia+ZmPZztvgnckdiAFj6DAdhmbFV3evKIMsdGAye2CLjEISIttxF5FOVJ8Z4XndbJsXfhvoPd1PETiW0l92EdkirwWqRIljp1LB/2NShavGy9cx6QSYOSGki04wYCoiDLev7xbVqCtTgWoiujpUguFRFbt583kI++l/kHWZK2EGXk20jkSYckdXRr+dsnVyW9qt9Kst/S5zW6ACFvyLX/fn6nMZ4WyS7gxfyptPxixUzUdIhiUJ+hq08uOBSPXSoi10an5BFDSXVregKWDsjCoro2pXwn8OZCiW6FGmNG3/N3US1fdkSlnvrCwz7yWD2SQ5hP0DBa3zVO+e43AAAAAASUVORK5CYII=" alt="informação"><span data-v-63b32920="" class="over">Registration closed</span></div></div></div></div></a><a data-v-63b32920="" href="/register-project-fair" class="router_link"><div data-v-63b32920="" class="card__right card"><div data-v-63b32920="" disable="" class="image"><img data-v-63b32920="" src="/img/project-image-2.1f423873.png" alt=""></div><div data-v-63b32920="" class="text"><h3 data-v-63b32920="">By Affiliated Fair</h3><p data-v-63b32920="">For those who wish to register and participate in the fair through the registered Affiliated Fairs.</p><div data-v-63b32920="" class="levels"><p data-v-63b32920="">Teaching levels contemplated:</p><div data-v-63b32920="" class="badges"><span data-v-63b32920="" class="badge">Child education</span><span data-v-63b32920="" class="badge">Elementary School</span><span data-v-63b32920="" class="badge">High School / Technical</span></div></div></div></div></a></section><footer data-v-63b32920=""><img data-v-63b32920="" src="/img/logo.a2a21b69.png" alt="Logo mostratec"><p data-v-63b32920="" class="information"> For more information, visit <a data-v-63b32920="" href="https://www.mostratec.com.br/" target="_blank">www.mostratec.com.br</a></p><p data-v-63b32920="" class="information"> Illustrations: <a data-v-63b32920="" href="https://www.icons8.com" target="_blank">www.icons8.com</a></p></footer></div></div></div></div></div></div></div><script src="/js/chunk-vendors.6ed6c4a5.js"></script><script src="/js/app.a0a230a4.js"></script></body></html>
