@@ -3,3 +3,4 @@ https://olhardigital.com.br/2020/01/22/noticias/github-combina-ia-e-aprendizado-
 
 
 https://docs.github.com/pt/github/getting-started-with-github/quickstart/git-and-github-learning-resources
+teste aprendizado git
